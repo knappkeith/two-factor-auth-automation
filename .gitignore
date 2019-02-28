@@ -102,3 +102,10 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# MAC
+*.DS_Store
+
+# reports Directory files but not the directory
+reports/*
+!reports/.gitkeep
