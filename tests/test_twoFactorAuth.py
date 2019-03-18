@@ -64,7 +64,7 @@ def test_sfdc_login(browser, twilio_session, sfdc_config):
     # Get an element that exists on login page to assert success
     print_and_sleep("Ensure site is loaded by looking for Logo")
     print_and_sleep("Current site URL is: '{}'".format(browser.current_url))
-    proof = web_element(browser, ('id', 'phHeaderLogoImage'))
+    proof = web_element(browser, ('id', 'auraAppcacheProgress'))
     assert proof is not None
 
 
