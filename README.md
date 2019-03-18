@@ -31,9 +31,9 @@ You will need to set up Mailosaur and Twilio:
 
 For these 'tests' to work you will need to have accounts for the following with the correct type of 2-Factor set up:
 
-* SFDC - SMS (use twilio phone number)
-* Comcast/Xfinity - Email (I used my personal then forwarded the email to the mailosaur service)
-* Trello - Authenticator App (I used a QR reader to read the secret from the QR code, but also put it in Google Authentictor)
+* [SFDC](https://www.salesforce.com/form/signup/freetrial-elf-v2/) - SMS (use twilio phone number)
+* [Comcast/Xfinity](https://idm.xfinity.com/myaccount/create-uid?execution=e1s1) - Email (I used my personal then forwarded the email to the mailosaur service)
+* [Trello](https://trello.com/signup) - Authenticator App (I used a QR reader to read the secret from the QR code, but also put it in Google Authentictor)
 
 Not that I don't like you all but I don't want to give all my creds so you will need to create a creds file.  You can find an example `creds_template.json`
 
