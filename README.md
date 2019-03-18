@@ -7,7 +7,10 @@ Code for Slalom QE Summit 2019: 2-Factor Authentication
 **Note** only tested out on Mac.
 
 ```bash
-$ git clone {GITHUB_LINK}
+$ git clone git@github.com:knappkeith/two-factor-auth-automation.git
+-or-
+$ git clone https://github.com/knappkeith/two-factor-auth-automation.git
+
 $ cd two-factor-auth-automation
 $ pip install -r requirements.txt
 ```
