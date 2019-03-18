@@ -1,0 +1,24 @@
+{
+    "mailosaur.apiKey": "",
+    "mailosaur.serverId": "",
+    "twilio.authKey": "",
+    "twilio.sid": "",
+    "comcast": {
+        "url": "https://login.xfinity.com/login",
+        "username": "",
+        "password": "",
+        "mailosaur.search_str": ""
+    },
+    "sfdc": {
+        "url": "https://login.salesforce.com/",
+        "username": "",
+        "password": ""
+    },
+    "trello": {
+        "url": "https://trello.com/login",
+        "username": "",
+        "password": "",
+        "auth_app_secret": "",
+        "verify_element_id": ""
+    }
+}
