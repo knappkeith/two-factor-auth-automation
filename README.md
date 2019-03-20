@@ -53,7 +53,7 @@ Not that I don't like you all but I don't want to give all my creds so you will 
     * `username`: your Trello User Name
     * `password`: your Trello Password
     * `auth_app_secret`: your secret from the QR code
-    * `verify_element_id`: optional the id of the element for your avatar img in the upper right corner
+    * `verify_element_id`: [optional] the id of the element for your avatar img in the upper right corner
 1. Set your creds path environment variable:
   * `$ export CREDS_PATH='~/2fa_creds.json'`
 
