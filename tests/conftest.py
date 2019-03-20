@@ -35,6 +35,7 @@ def browser(request):
     """
 
     driver = get_browser(browser_type=request.config.option.browser)
+    driver.set_window_size(1200, 800)
     yield driver
 
     try:
